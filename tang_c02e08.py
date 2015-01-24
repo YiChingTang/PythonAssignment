@@ -3,7 +3,7 @@
 # by: Linya Tang
 def main():
 	"""Return temperature from Fahrenheit to Celsius"""
-	fahrenheit = eval(input("What is the Fahrenheit temperature?"))
+	fahrenheit = eval(input("What is the Fahrenheit temperature? (integer only)"))
 	celsius = (Fahrenheit - 32)*5/9
 	print ("The temperature is:", celsius, "degree Celsius")
 
